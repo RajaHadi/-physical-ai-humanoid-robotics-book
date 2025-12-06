@@ -1,0 +1,22 @@
+# Node.js / Docusaurus
+node_modules/
+.docusaurus/
+build/
+dist/
+.env
+.env.local
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+venv/
+.venv/
+.pytest_cache/
+
+# ROS 2 / Colcon
+install/
+log/
+build/
+COLCON_IGNORE

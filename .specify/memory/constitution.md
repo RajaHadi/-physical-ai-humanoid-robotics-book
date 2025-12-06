@@ -1,55 +1,66 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+SYNC IMPACT REPORT
+Version: 1.0.0 (Initial Ratification)
+Modified Principles: Defined initial 5 principles.
+Added Sections: Core Principles, Key Standards, Constraints, Governance.
+Templates: No template updates required (references are generic).
+-->
+# Physical AI & Humanoid Robotics – A Full Technical Book (Docusaurus Project) Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Technical Accuracy & Research Alignment
+All content must be rigorously aligned with current research in Physical AI and humanoid robotics. Technical descriptions must be based on validated concepts from robotics, AI, and control systems. Speculative or unverified information must be clearly distinguished from established engineering facts.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clarity for Target Audience
+Explanations must be suitable for intermediate-to-advanced learners in AI, robotics, and engineering. The writing should bridge the gap between academic research and practical engineering, avoiding unnecessary jargon while maintaining technical depth.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Practical & Real-World Orientation
+The book must emphasize practical application. Concepts should be illustrated with real-world humanoid robot systems, sensors, actuators, and AI-driven control mechanisms. Theory must connect to implementation.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Consistency via Spec-Driven Development
+Consistency across all chapters is paramount and must be generated through Claude Code + Spec-Kit workflows. Terminology, formatting, and structural patterns must remain uniform throughout the book to ensure a cohesive reading experience.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Modular Structure for Docusaurus
+The content must be structured modularly to be optimized for Docusaurus documentation formatting. Each chapter and section should function as a coherent unit that renders correctly in a static site generator environment (Markdown-first).
 
-### [PRINCIPLE_6_NAME]
+## Key Standards
 
+### Citation & Sources
+- **Format:** IEEE style.
+- **Source Types:** Robotics research papers, academic books, official documentation, reputable engineering sources.
+- **Peer-Review Requirement:** Minimum **40% peer-reviewed citations**.
+- **Prohibited:** Unverified blog posts or non-technical opinion pieces as primary sources.
 
-[PRINCIPLE__DESCRIPTION]
+### Reproducibility
+All diagrams, code snippets, and explanations must be reproducible or testable where applicable. Code examples should be syntactically correct and conceptually sound.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Writing Style
+Clear, concise, structured technical writing. Active voice preferred.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Constraints
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### Volume & Structure
+- **Length:** 20,000–30,000 words.
+- **Structure:** Minimum 10 core chapters + appendix.
+- **Chapter Components:** Each chapter MUST include:
+  - Introduction
+  - Key concepts
+  - Technical explanations
+  - Real-world examples or case studies
+  - Summary
+  - References
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Technical Format
+- **Output:** Docusaurus-compatible Markdown.
+- **Deployment:** Must be deployable to GitHub Pages.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+### Amendment Procedure
+Amendments to this constitution require a formal review of the project goals. Principles can be added or refined as the book evolves, but the commitment to technical accuracy and Docusaurus compatibility is foundational.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+### Compliance
+All chapters must pass Spec-Kit Plus fact-checking. Zero plagiarism is tolerated. Docusaurus builds must pass with no errors.
+
+**Version**: 1.0.0 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06

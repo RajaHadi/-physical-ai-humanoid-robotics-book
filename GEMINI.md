@@ -1,4 +1,4 @@
-# Gemini CLI Rules
+﻿# Gemini CLI Rules
 
 This file is generated during init for the selected agent.
 
@@ -40,6 +40,7 @@ After completing requests, you **MUST** create a PHR (Prompt History Record).
 - Debugging sessions
 - Spec/task/plan creation
 - Multi-step workflows
+
 
 **PHR Creation Process:**
 
