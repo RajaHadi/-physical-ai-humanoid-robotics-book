@@ -11,32 +11,38 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Module 1: ROS 2 Foundations',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn the fundamentals of ROS 2, including environment setup, nodes, topics, and creating basic communication for robot control.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Module 2: The Digital Twin',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Explore the 'Digital Twin' concept, mastering terminology and simulating physics, sensors, and environments in Gazebo and Unity for realistic robot modeling.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Module 3: NVIDIA Isaac Sim',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Dive into NVIDIA Isaac Sim, understanding its architecture, setting up simulations, and implementing advanced perception, navigation, and reinforcement learning for humanoid control.
+      </>
+    ),
+  },
+  {
+    title: 'Module 4: VLA Robotics LLM',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default, // Re-using for the 4th module
+    description: (
+      <>
+        Discover Vision-Language-Action (VLA) systems, enabling humanoid robots to interpret voice commands via Whisper, plan with LLMs, and execute complex actions using ROS 2, perception, and manipulation.
       </>
     ),
   },
